@@ -1,0 +1,10 @@
+#spectrum {
+    width: 800px; /* 例: 幅を800ピクセルに設定 */
+    height: 400px; /* 例: 高さを400ピクセルに設定 */
+}
+.chart-container {
+    width: 800px;
+    height: 400px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}

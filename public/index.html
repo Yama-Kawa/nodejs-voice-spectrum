@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="chart.min.js"></script>
+    <script src='//code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js'></script>
+
+  </head>
+  <body>
+    <button id="a" onclick="startRecording()">録音開始</button>
+    <button id="b" onclick="stopRecording()">録音停止</button>
+
+    <div class="chart-container">
+    <canvas id="spectrum"></canvas>
+    </div>
+
+    <script src="./javascripts/client.js"></script>
+  </body>
+</html>
